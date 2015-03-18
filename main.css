@@ -1,0 +1,175 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*=========End of Reset==========*/
+
+
+#top_section {
+  background-color: #517fa4;
+  background-position: 57% 24%;
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+img{
+  height: 100px;
+  width: 100px;
+  text-align: center;
+   position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+}
+
+#top_section h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'IM Fell Great Primer', serif;
+  color: #ffffff;
+  font-weight: 700;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  position: relative;
+  display: block;
+}
+
+input {
+  width: 245px;
+  height: 35px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Maven Pro;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#container {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+}
+
+#button_section {
+  display: inline;
+  position: fixed;
+  float: left;
+  margin-left: 120px;
+}
+
+#button_section img {
+  height: 70px;
+  position: block;
+  position: relative;
+  left: 65px;
+  top: 10px;
+}
+
+.fixed {
+  position: fixed;     
+    top: 0;           
+    z-index: 100;  
+    border-top: 0;
+}
+
+#output {
+  display: inline;
+  position: absolute;
+  float: right;
+  margin-right: 80px;
+  margin-left: 300px;
+}
+
+#output img {
+-webkit-box-shadow: 2px 2px 10px 0px rgba(50, 50, 50, 0.59);
+-moz-box-shadow:    2px 2px 10px 0px rgba(50, 50, 50, 0.59);
+box-shadow:         2px 2px 10px 0px rgba(50, 50, 50, 0.59);
+}
+
+.picturediv {
+  display: inline-block;
+}
+
+#stardiv {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  text-align: left;
+}
+
+button {
+  position: relative;
+  text-align: center;
+  height: 35px;
+  width: 170px;
+  font-size: 16px;
+  font-family: Maven Pro;
+  display: block;
+  background-color: #FFFFFF;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  cursor: hand;
+}
+
+#morepictures {
+  margin-bottom: 20px;
+}
+
+#output div {
+  display: inline-block;
+}
+
+.picturediv {
+  display: inline-block;
+}
+
